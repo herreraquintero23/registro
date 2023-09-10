@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Registar Empresa</title>
 </head>
 <body>
-<form action="HelloServlet" method="POST">
+<form action="controlador" method="POST">
     <table>
         <tr>
             <td>NIT de tu empresa</td><td><label>
