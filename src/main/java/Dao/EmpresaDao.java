@@ -1,10 +1,12 @@
+package Dao;
+
 import model.Empresa;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-public class empresaDao {
+public class EmpresaDao {
     public int registrarEmpresa(Empresa empresa) throws ClassNotFoundException{
         String INSERT_EMPRESAS_SQL = "INSERT  Empresas" +
                 "(nit,nombre,direccion,telefono,clave,servicio) VALUES" +

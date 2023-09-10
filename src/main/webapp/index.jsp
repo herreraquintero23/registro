@@ -39,7 +39,7 @@
         </tr>
         <tr>
             <td>confirmar contraseña</td><td><label>
-            <input type="text" placeholder="confirmar contraseña" name="confirmar_C"/>
+            <input type="text" placeholder="confirmar contraseña" name="confirmar_c"/>
         </label></td>
         </tr>
         <tr>
