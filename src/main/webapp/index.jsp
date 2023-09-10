@@ -5,7 +5,7 @@
     <title>Registar Empresa</title>
 </head>
 <body>
-<form action="<%=request.getContextPath()%>/empresaServlet" method="POST">
+<form action="registro" method="POST">
     <table>
         <tr>
             <td>NIT de tu empresa</td><td><label>

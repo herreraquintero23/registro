@@ -6,7 +6,7 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 import model.Empresa;
 
-@WebServlet(name = "empresaServlet", value = "/empresaServlet")
+@WebServlet(name = "registro", value = "/registro")
 public class EmpresaServlet extends HttpServlet{
 
     private static final long serialVersionUID = 1L;
